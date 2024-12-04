@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/blue-wavy-background.jpg);
+    color: #333;
+}
+
+.texto {
+    font-size: 15px;
+    color: #777;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.video {
+    text-align: center;
+}
+
+iframe {
+    width: 750px;
+    height: 550px;
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
